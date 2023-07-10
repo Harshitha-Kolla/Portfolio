@@ -7,10 +7,85 @@
         <link rel="stylesheet" href="styles.css" />
       
         <title>Harshitha Portfolio</title>
-        <link rel="icon" href="./assets/logo.png" type="image/x-icon" />
       </head>
 
       <body>
-        <p>Hi, I am Harshitha</p>
+        <div class="image">
+          <img class="intro-img" src="images/harshitha_photo.png">
+        </div>
+        <div id="header">
+          <div class="container">
+            <nav>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Co-Curriculars</a></li>
+              </ul>
+            </nav>
+            <hr>
+            <div class="header-text">
+              <h1>Hi, I am <span>Harshitha Kolla</span></h1>
+              <p>I am a Web Developer passionate about <br> creating dynamic and user-friendly <br>experiences. </p>
+            </div>
+          </div>
+        </div>
+<!-- about -->
+        <div id="about">
+          <div class="container">
+              <div class="row">
+                <div class="about-col-1">
+                  <img src="images/Harshitha-photo2.jpg">
+                </div>
+                <div class="about-col-2">
+                  <h1 class="subtitle">About Me</h1>
+                  <p>I am studying Electronics and Communication Engineering
+                    at National Institute of Technology, Warangal (NITW).<br>
+                    As Joint Secretary of the Robotics Club, I have indulged in multiple 
+                    robotics-related activites while managing Public 
+                    Relations for many of the events conducted by the club.
+                    <br>I have also honed inter-personal and leadership skills via extra-curriculars 
+                    such as Basketball, dance, painting, and baking.
+                    </p>
+
+                    <div class="tab-titles">
+                      <p class="tab-links active-link" onclick= "opentab('education')">Education</p>
+                      <p class="tab-links" onclick= "opentab('skills')">Skills</p>
+                      <p class="tab-links" onclick= "opentab('experience')">Experience</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="education">
+                      <ul>
+                        <li><span>B.Tech in Electronics and Communication Engineering</span><br>NIT, Warangal | 2021-25<br>CGPA: <span>7.87</span></li>
+                        <li><span>CBSE Class 12</span><br>DPS Modern Indian School, Qatar | 2021<br>Percentage: <span>97%</span><br></li>
+                      </ul>
+                    </div>
+
+                    <div class="tab-contents" id="skills">
+                      <ul>
+                        <li><span>Languages</span><br>C++, Python, Verilog, JavaScript</li>
+                        <li><span>Development</span><br>HTML, CSS, Git, ML, Arduino<br></li>
+                        <li><span>Coursework</span><br>Digital Circuit Design, DSA, CMOS VLSI Design, FPGA Based Design Systems, AIML, MATLAB<br></li>
+                      </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                      <ul>
+                        <li><span>Kraya</span><br>Web Development Intern</li>
+                        <li><span>Robotics Club</span><br>Joint Secretary<br>Web Development | PR Management</li>
+                        <li><span>Cakes with a K</span><br>Home-Owned Business</li>
+                      </ul>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div id="projects">
+          
+        </div>
+        
+        <script src="index.js"></script>
+
       </body>
 </html>
